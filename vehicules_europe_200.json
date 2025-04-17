@@ -1,0 +1,1602 @@
+[
+  {
+    "marque": "Citroën",
+    "modele": "C3",
+    "motorisation": "Hybride",
+    "annee": 1990,
+    "co2": 90,
+    "poids": 1246
+  },
+  {
+    "marque": "Audi",
+    "modele": "A1",
+    "motorisation": "Hybride Rechargeable",
+    "annee": 2011,
+    "co2": 64,
+    "poids": 1932
+  },
+  {
+    "marque": "Peugeot",
+    "modele": "5008",
+    "motorisation": "Hybride",
+    "annee": 2002,
+    "co2": 98,
+    "poids": 1443
+  },
+  {
+    "marque": "Skoda",
+    "modele": "Octavia",
+    "motorisation": "Hybride",
+    "annee": 1997,
+    "co2": 106,
+    "poids": 1537
+  },
+  {
+    "marque": "Fiat",
+    "modele": "Tipo",
+    "motorisation": "Électrique",
+    "annee": 2003,
+    "co2": 0,
+    "poids": 2134
+  },
+  {
+    "marque": "BMW",
+    "modele": "Série 3",
+    "motorisation": "Électrique",
+    "annee": 1996,
+    "co2": 0,
+    "poids": 2222
+  },
+  {
+    "marque": "Renault",
+    "modele": "Scénic",
+    "motorisation": "Essence",
+    "annee": 2021,
+    "co2": 100,
+    "poids": 1749
+  },
+  {
+    "marque": "Citroën",
+    "modele": "C4",
+    "motorisation": "Hybride",
+    "annee": 2011,
+    "co2": 83,
+    "poids": 1233
+  },
+  {
+    "marque": "Volvo",
+    "modele": "V60",
+    "motorisation": "Hybride Rechargeable",
+    "annee": 2008,
+    "co2": 26,
+    "poids": 1719
+  },
+  {
+    "marque": "Citroën",
+    "modele": "C2",
+    "motorisation": "Diesel",
+    "annee": 2020,
+    "co2": 120,
+    "poids": 1147
+  },
+  {
+    "marque": "Renault",
+    "modele": "Scénic",
+    "motorisation": "Électrique",
+    "annee": 1993,
+    "co2": 0,
+    "poids": 2088
+  },
+  {
+    "marque": "Volkswagen",
+    "modele": "Passat",
+    "motorisation": "Hybride",
+    "annee": 2007,
+    "co2": 112,
+    "poids": 1597
+  },
+  {
+    "marque": "Skoda",
+    "modele": "Octavia",
+    "motorisation": "Essence",
+    "annee": 1997,
+    "co2": 201,
+    "poids": 980
+  },
+  {
+    "marque": "Volvo",
+    "modele": "XC40",
+    "motorisation": "Hybride Rechargeable",
+    "annee": 2012,
+    "co2": 73,
+    "poids": 1437
+  },
+  {
+    "marque": "BMW",
+    "modele": "Série 5",
+    "motorisation": "Hybride",
+    "annee": 2001,
+    "co2": 96,
+    "poids": 1545
+  },
+  {
+    "marque": "Renault",
+    "modele": "Twingo",
+    "motorisation": "Essence",
+    "annee": 2001,
+    "co2": 145,
+    "poids": 1256
+  },
+  {
+    "marque": "Citroën",
+    "modele": "DS4",
+    "motorisation": "Diesel",
+    "annee": 1997,
+    "co2": 192,
+    "poids": 1482
+  },
+  {
+    "marque": "Skoda",
+    "modele": "Kamiq",
+    "motorisation": "Essence",
+    "annee": 1995,
+    "co2": 126,
+    "poids": 1578
+  },
+  {
+    "marque": "Renault",
+    "modele": "Mégane",
+    "motorisation": "Essence",
+    "annee": 1990,
+    "co2": 163,
+    "poids": 1599
+  },
+  {
+    "marque": "Volvo",
+    "modele": "S60",
+    "motorisation": "Hybride",
+    "annee": 2007,
+    "co2": 119,
+    "poids": 1478
+  },
+  {
+    "marque": "Peugeot",
+    "modele": "5008",
+    "motorisation": "Hybride",
+    "annee": 2024,
+    "co2": 109,
+    "poids": 1695
+  },
+  {
+    "marque": "Opel",
+    "modele": "Crossland",
+    "motorisation": "Hybride",
+    "annee": 2008,
+    "co2": 101,
+    "poids": 1621
+  },
+  {
+    "marque": "Opel",
+    "modele": "Astra",
+    "motorisation": "Diesel",
+    "annee": 1997,
+    "co2": 132,
+    "poids": 1165
+  },
+  {
+    "marque": "Citroën",
+    "modele": "DS7",
+    "motorisation": "Hybride",
+    "annee": 1998,
+    "co2": 94,
+    "poids": 1378
+  },
+  {
+    "marque": "Opel",
+    "modele": "Crossland",
+    "motorisation": "Hybride Rechargeable",
+    "annee": 1996,
+    "co2": 78,
+    "poids": 1442
+  },
+  {
+    "marque": "Fiat",
+    "modele": "Punto",
+    "motorisation": "Électrique",
+    "annee": 1995,
+    "co2": 0,
+    "poids": 1956
+  },
+  {
+    "marque": "Volvo",
+    "modele": "XC60",
+    "motorisation": "Diesel",
+    "annee": 1993,
+    "co2": 162,
+    "poids": 1885
+  },
+  {
+    "marque": "BMW",
+    "modele": "X3",
+    "motorisation": "Électrique",
+    "annee": 1991,
+    "co2": 0,
+    "poids": 1418
+  },
+  {
+    "marque": "Opel",
+    "modele": "Crossland",
+    "motorisation": "Diesel",
+    "annee": 2024,
+    "co2": 183,
+    "poids": 1628
+  },
+  {
+    "marque": "Audi",
+    "modele": "A5",
+    "motorisation": "Électrique",
+    "annee": 2021,
+    "co2": 0,
+    "poids": 1837
+  },
+  {
+    "marque": "Audi",
+    "modele": "Q7",
+    "motorisation": "Hybride",
+    "annee": 2007,
+    "co2": 112,
+    "poids": 1689
+  },
+  {
+    "marque": "Mercedes",
+    "modele": "Classe B",
+    "motorisation": "Essence",
+    "annee": 2012,
+    "co2": 227,
+    "poids": 1019
+  },
+  {
+    "marque": "Peugeot",
+    "modele": "RCZ",
+    "motorisation": "Hybride Rechargeable",
+    "annee": 2016,
+    "co2": 77,
+    "poids": 1995
+  },
+  {
+    "marque": "Volkswagen",
+    "modele": "Tiguan",
+    "motorisation": "Diesel",
+    "annee": 2005,
+    "co2": 157,
+    "poids": 1737
+  },
+  {
+    "marque": "Seat",
+    "modele": "Leon",
+    "motorisation": "Hybride",
+    "annee": 2021,
+    "co2": 97,
+    "poids": 1671
+  },
+  {
+    "marque": "Opel",
+    "modele": "Crossland",
+    "motorisation": "Essence",
+    "annee": 1992,
+    "co2": 103,
+    "poids": 1552
+  },
+  {
+    "marque": "Volkswagen",
+    "modele": "Tiguan",
+    "motorisation": "Électrique",
+    "annee": 2010,
+    "co2": 0,
+    "poids": 1614
+  },
+  {
+    "marque": "BMW",
+    "modele": "Série 1",
+    "motorisation": "Hybride",
+    "annee": 2024,
+    "co2": 92,
+    "poids": 1280
+  },
+  {
+    "marque": "Peugeot",
+    "modele": "5008",
+    "motorisation": "Hybride Rechargeable",
+    "annee": 1993,
+    "co2": 69,
+    "poids": 1929
+  },
+  {
+    "marque": "Fiat",
+    "modele": "Panda",
+    "motorisation": "Hybride",
+    "annee": 2018,
+    "co2": 94,
+    "poids": 1274
+  },
+  {
+    "marque": "Peugeot",
+    "modele": "207",
+    "motorisation": "Essence",
+    "annee": 2017,
+    "co2": 215,
+    "poids": 988
+  },
+  {
+    "marque": "Volvo",
+    "modele": "XC40",
+    "motorisation": "Essence",
+    "annee": 2002,
+    "co2": 239,
+    "poids": 1133
+  },
+  {
+    "marque": "Volkswagen",
+    "modele": "Tiguan",
+    "motorisation": "Diesel",
+    "annee": 1993,
+    "co2": 112,
+    "poids": 1333
+  },
+  {
+    "marque": "Opel",
+    "modele": "Corsa",
+    "motorisation": "Essence",
+    "annee": 2014,
+    "co2": 210,
+    "poids": 1599
+  },
+  {
+    "marque": "Volvo",
+    "modele": "S60",
+    "motorisation": "Essence",
+    "annee": 2008,
+    "co2": 202,
+    "poids": 1073
+  },
+  {
+    "marque": "Audi",
+    "modele": "Q7",
+    "motorisation": "Essence",
+    "annee": 2016,
+    "co2": 181,
+    "poids": 1558
+  },
+  {
+    "marque": "BMW",
+    "modele": "i3",
+    "motorisation": "Électrique",
+    "annee": 2021,
+    "co2": 0,
+    "poids": 1941
+  },
+  {
+    "marque": "Peugeot",
+    "modele": "308",
+    "motorisation": "Hybride",
+    "annee": 2017,
+    "co2": 104,
+    "poids": 1296
+  },
+  {
+    "marque": "Seat",
+    "modele": "Arona",
+    "motorisation": "Électrique",
+    "annee": 2011,
+    "co2": 0,
+    "poids": 1631
+  },
+  {
+    "marque": "Fiat",
+    "modele": "Bravo",
+    "motorisation": "Hybride",
+    "annee": 2022,
+    "co2": 91,
+    "poids": 1528
+  },
+  {
+    "marque": "Citroën",
+    "modele": "C1",
+    "motorisation": "Hybride Rechargeable",
+    "annee": 2014,
+    "co2": 35,
+    "poids": 2073
+  },
+  {
+    "marque": "Opel",
+    "modele": "Insignia",
+    "motorisation": "Hybride",
+    "annee": 1993,
+    "co2": 117,
+    "poids": 1440
+  },
+  {
+    "marque": "Volvo",
+    "modele": "XC90",
+    "motorisation": "Essence",
+    "annee": 1995,
+    "co2": 122,
+    "poids": 1399
+  },
+  {
+    "marque": "Seat",
+    "modele": "Ateca",
+    "motorisation": "Électrique",
+    "annee": 2018,
+    "co2": 0,
+    "poids": 1856
+  },
+  {
+    "marque": "Audi",
+    "modele": "A4",
+    "motorisation": "Hybride",
+    "annee": 2020,
+    "co2": 86,
+    "poids": 1581
+  },
+  {
+    "marque": "Volkswagen",
+    "modele": "Tiguan",
+    "motorisation": "Diesel",
+    "annee": 2002,
+    "co2": 174,
+    "poids": 1593
+  },
+  {
+    "marque": "BMW",
+    "modele": "Série 5",
+    "motorisation": "Électrique",
+    "annee": 1996,
+    "co2": 0,
+    "poids": 1737
+  },
+  {
+    "marque": "Citroën",
+    "modele": "C4",
+    "motorisation": "Électrique",
+    "annee": 2007,
+    "co2": 0,
+    "poids": 2170
+  },
+  {
+    "marque": "Peugeot",
+    "modele": "207",
+    "motorisation": "Diesel",
+    "annee": 2015,
+    "co2": 127,
+    "poids": 1777
+  },
+  {
+    "marque": "Volvo",
+    "modele": "XC90",
+    "motorisation": "Électrique",
+    "annee": 2019,
+    "co2": 0,
+    "poids": 1550
+  },
+  {
+    "marque": "Peugeot",
+    "modele": "208",
+    "motorisation": "Hybride",
+    "annee": 2005,
+    "co2": 103,
+    "poids": 1789
+  },
+  {
+    "marque": "Citroën",
+    "modele": "C4",
+    "motorisation": "Hybride Rechargeable",
+    "annee": 2023,
+    "co2": 59,
+    "poids": 1355
+  },
+  {
+    "marque": "Skoda",
+    "modele": "Fabia",
+    "motorisation": "Diesel",
+    "annee": 2015,
+    "co2": 167,
+    "poids": 1804
+  },
+  {
+    "marque": "Renault",
+    "modele": "Laguna",
+    "motorisation": "Diesel",
+    "annee": 1997,
+    "co2": 197,
+    "poids": 1888
+  },
+  {
+    "marque": "Mercedes",
+    "modele": "Classe B",
+    "motorisation": "Essence",
+    "annee": 2016,
+    "co2": 103,
+    "poids": 1396
+  },
+  {
+    "marque": "Volkswagen",
+    "modele": "Passat",
+    "motorisation": "Diesel",
+    "annee": 1997,
+    "co2": 183,
+    "poids": 1715
+  },
+  {
+    "marque": "Audi",
+    "modele": "A6",
+    "motorisation": "Hybride Rechargeable",
+    "annee": 2021,
+    "co2": 57,
+    "poids": 1935
+  },
+  {
+    "marque": "Volkswagen",
+    "modele": "Golf",
+    "motorisation": "Hybride Rechargeable",
+    "annee": 2008,
+    "co2": 30,
+    "poids": 2055
+  },
+  {
+    "marque": "Skoda",
+    "modele": "Superb",
+    "motorisation": "Électrique",
+    "annee": 2007,
+    "co2": 0,
+    "poids": 1719
+  },
+  {
+    "marque": "Citroën",
+    "modele": "DS4",
+    "motorisation": "Diesel",
+    "annee": 2005,
+    "co2": 120,
+    "poids": 1614
+  },
+  {
+    "marque": "Opel",
+    "modele": "Corsa",
+    "motorisation": "Électrique",
+    "annee": 2016,
+    "co2": 0,
+    "poids": 1897
+  },
+  {
+    "marque": "Volkswagen",
+    "modele": "ID.3",
+    "motorisation": "Électrique",
+    "annee": 1998,
+    "co2": 0,
+    "poids": 2042
+  },
+  {
+    "marque": "Peugeot",
+    "modele": "206",
+    "motorisation": "Diesel",
+    "annee": 1998,
+    "co2": 139,
+    "poids": 1368
+  },
+  {
+    "marque": "Volkswagen",
+    "modele": "Tiguan",
+    "motorisation": "Hybride Rechargeable",
+    "annee": 2020,
+    "co2": 35,
+    "poids": 1605
+  },
+  {
+    "marque": "Seat",
+    "modele": "Ateca",
+    "motorisation": "Hybride Rechargeable",
+    "annee": 1993,
+    "co2": 40,
+    "poids": 1388
+  },
+  {
+    "marque": "Renault",
+    "modele": "Laguna",
+    "motorisation": "Électrique",
+    "annee": 1990,
+    "co2": 0,
+    "poids": 2108
+  },
+  {
+    "marque": "BMW",
+    "modele": "X5",
+    "motorisation": "Électrique",
+    "annee": 2010,
+    "co2": 0,
+    "poids": 1726
+  },
+  {
+    "marque": "Skoda",
+    "modele": "Kamiq",
+    "motorisation": "Hybride Rechargeable",
+    "annee": 2017,
+    "co2": 22,
+    "poids": 1411
+  },
+  {
+    "marque": "Peugeot",
+    "modele": "207",
+    "motorisation": "Diesel",
+    "annee": 2006,
+    "co2": 154,
+    "poids": 1789
+  },
+  {
+    "marque": "Opel",
+    "modele": "Mokka",
+    "motorisation": "Essence",
+    "annee": 2004,
+    "co2": 173,
+    "poids": 1236
+  },
+  {
+    "marque": "BMW",
+    "modele": "X1",
+    "motorisation": "Hybride",
+    "annee": 2003,
+    "co2": 112,
+    "poids": 1782
+  },
+  {
+    "marque": "Volvo",
+    "modele": "XC60",
+    "motorisation": "Hybride Rechargeable",
+    "annee": 2005,
+    "co2": 22,
+    "poids": 1801
+  },
+  {
+    "marque": "Seat",
+    "modele": "Arona",
+    "motorisation": "Diesel",
+    "annee": 1999,
+    "co2": 152,
+    "poids": 1028
+  },
+  {
+    "marque": "Audi",
+    "modele": "Q5",
+    "motorisation": "Hybride",
+    "annee": 2015,
+    "co2": 80,
+    "poids": 1385
+  },
+  {
+    "marque": "Volvo",
+    "modele": "V60",
+    "motorisation": "Essence",
+    "annee": 2011,
+    "co2": 141,
+    "poids": 1300
+  },
+  {
+    "marque": "Fiat",
+    "modele": "Tipo",
+    "motorisation": "Diesel",
+    "annee": 2013,
+    "co2": 103,
+    "poids": 1888
+  },
+  {
+    "marque": "BMW",
+    "modele": "Série 1",
+    "motorisation": "Hybride",
+    "annee": 2024,
+    "co2": 89,
+    "poids": 1228
+  },
+  {
+    "marque": "Seat",
+    "modele": "Ibiza",
+    "motorisation": "Diesel",
+    "annee": 2001,
+    "co2": 121,
+    "poids": 1510
+  },
+  {
+    "marque": "Volkswagen",
+    "modele": "ID.4",
+    "motorisation": "Électrique",
+    "annee": 1990,
+    "co2": 0,
+    "poids": 1769
+  },
+  {
+    "marque": "Seat",
+    "modele": "Ateca",
+    "motorisation": "Hybride Rechargeable",
+    "annee": 2019,
+    "co2": 48,
+    "poids": 1769
+  },
+  {
+    "marque": "Volkswagen",
+    "modele": "ID.3",
+    "motorisation": "Essence",
+    "annee": 1991,
+    "co2": 140,
+    "poids": 1067
+  },
+  {
+    "marque": "Citroën",
+    "modele": "DS4",
+    "motorisation": "Diesel",
+    "annee": 2007,
+    "co2": 176,
+    "poids": 1426
+  },
+  {
+    "marque": "Citroën",
+    "modele": "C1",
+    "motorisation": "Hybride Rechargeable",
+    "annee": 1994,
+    "co2": 75,
+    "poids": 1648
+  },
+  {
+    "marque": "Skoda",
+    "modele": "Kodiaq",
+    "motorisation": "Essence",
+    "annee": 2004,
+    "co2": 147,
+    "poids": 1652
+  },
+  {
+    "marque": "Seat",
+    "modele": "Ateca",
+    "motorisation": "Hybride",
+    "annee": 2012,
+    "co2": 103,
+    "poids": 1274
+  },
+  {
+    "marque": "Renault",
+    "modele": "Clio",
+    "motorisation": "Essence",
+    "annee": 1994,
+    "co2": 153,
+    "poids": 1604
+  },
+  {
+    "marque": "Audi",
+    "modele": "Q5",
+    "motorisation": "Essence",
+    "annee": 2024,
+    "co2": 238,
+    "poids": 1568
+  },
+  {
+    "marque": "Audi",
+    "modele": "e-tron",
+    "motorisation": "Hybride",
+    "annee": 2000,
+    "co2": 85,
+    "poids": 1729
+  },
+  {
+    "marque": "BMW",
+    "modele": "X3",
+    "motorisation": "Diesel",
+    "annee": 1993,
+    "co2": 151,
+    "poids": 1716
+  },
+  {
+    "marque": "Opel",
+    "modele": "Insignia",
+    "motorisation": "Essence",
+    "annee": 2024,
+    "co2": 231,
+    "poids": 1339
+  },
+  {
+    "marque": "Fiat",
+    "modele": "Bravo",
+    "motorisation": "Hybride",
+    "annee": 2007,
+    "co2": 101,
+    "poids": 1523
+  },
+  {
+    "marque": "Mercedes",
+    "modele": "GLC",
+    "motorisation": "Hybride Rechargeable",
+    "annee": 2011,
+    "co2": 75,
+    "poids": 1328
+  },
+  {
+    "marque": "Peugeot",
+    "modele": "RCZ",
+    "motorisation": "Électrique",
+    "annee": 1991,
+    "co2": 0,
+    "poids": 2059
+  },
+  {
+    "marque": "Skoda",
+    "modele": "Superb",
+    "motorisation": "Essence",
+    "annee": 1998,
+    "co2": 140,
+    "poids": 1240
+  },
+  {
+    "marque": "Fiat",
+    "modele": "Punto",
+    "motorisation": "Hybride Rechargeable",
+    "annee": 1997,
+    "co2": 42,
+    "poids": 1337
+  },
+  {
+    "marque": "Renault",
+    "modele": "Twingo",
+    "motorisation": "Essence",
+    "annee": 2010,
+    "co2": 149,
+    "poids": 1337
+  },
+  {
+    "marque": "Skoda",
+    "modele": "Kamiq",
+    "motorisation": "Essence",
+    "annee": 2011,
+    "co2": 206,
+    "poids": 1371
+  },
+  {
+    "marque": "Audi",
+    "modele": "Q7",
+    "motorisation": "Électrique",
+    "annee": 2012,
+    "co2": 0,
+    "poids": 2273
+  },
+  {
+    "marque": "BMW",
+    "modele": "i8",
+    "motorisation": "Hybride Rechargeable",
+    "annee": 1998,
+    "co2": 75,
+    "poids": 1872
+  },
+  {
+    "marque": "Citroën",
+    "modele": "C5",
+    "motorisation": "Électrique",
+    "annee": 2022,
+    "co2": 0,
+    "poids": 1421
+  },
+  {
+    "marque": "Volkswagen",
+    "modele": "Scirocco",
+    "motorisation": "Hybride",
+    "annee": 2007,
+    "co2": 84,
+    "poids": 1700
+  },
+  {
+    "marque": "Mercedes",
+    "modele": "Classe C",
+    "motorisation": "Électrique",
+    "annee": 2014,
+    "co2": 0,
+    "poids": 1500
+  },
+  {
+    "marque": "BMW",
+    "modele": "Série 1",
+    "motorisation": "Diesel",
+    "annee": 2010,
+    "co2": 123,
+    "poids": 1496
+  },
+  {
+    "marque": "Seat",
+    "modele": "Ateca",
+    "motorisation": "Hybride Rechargeable",
+    "annee": 1999,
+    "co2": 71,
+    "poids": 2026
+  },
+  {
+    "marque": "Opel",
+    "modele": "Insignia",
+    "motorisation": "Hybride Rechargeable",
+    "annee": 2015,
+    "co2": 65,
+    "poids": 1522
+  },
+  {
+    "marque": "Citroën",
+    "modele": "C1",
+    "motorisation": "Diesel",
+    "annee": 2020,
+    "co2": 105,
+    "poids": 1818
+  },
+  {
+    "marque": "Fiat",
+    "modele": "Punto",
+    "motorisation": "Hybride Rechargeable",
+    "annee": 2001,
+    "co2": 43,
+    "poids": 1811
+  },
+  {
+    "marque": "Opel",
+    "modele": "Astra",
+    "motorisation": "Électrique",
+    "annee": 2010,
+    "co2": 0,
+    "poids": 1848
+  },
+  {
+    "marque": "Audi",
+    "modele": "Q5",
+    "motorisation": "Hybride",
+    "annee": 2005,
+    "co2": 88,
+    "poids": 1239
+  },
+  {
+    "marque": "Audi",
+    "modele": "Q7",
+    "motorisation": "Diesel",
+    "annee": 2011,
+    "co2": 176,
+    "poids": 1337
+  },
+  {
+    "marque": "Citroën",
+    "modele": "C1",
+    "motorisation": "Hybride Rechargeable",
+    "annee": 1995,
+    "co2": 74,
+    "poids": 1908
+  },
+  {
+    "marque": "Audi",
+    "modele": "A6",
+    "motorisation": "Hybride",
+    "annee": 1995,
+    "co2": 120,
+    "poids": 1622
+  },
+  {
+    "marque": "Fiat",
+    "modele": "Panda",
+    "motorisation": "Électrique",
+    "annee": 2006,
+    "co2": 0,
+    "poids": 1959
+  },
+  {
+    "marque": "Seat",
+    "modele": "Ibiza",
+    "motorisation": "Essence",
+    "annee": 2001,
+    "co2": 223,
+    "poids": 1220
+  },
+  {
+    "marque": "Citroën",
+    "modele": "C1",
+    "motorisation": "Hybride Rechargeable",
+    "annee": 2023,
+    "co2": 39,
+    "poids": 2056
+  },
+  {
+    "marque": "Volvo",
+    "modele": "S60",
+    "motorisation": "Hybride",
+    "annee": 2018,
+    "co2": 94,
+    "poids": 1476
+  },
+  {
+    "marque": "Fiat",
+    "modele": "Bravo",
+    "motorisation": "Électrique",
+    "annee": 2023,
+    "co2": 0,
+    "poids": 2148
+  },
+  {
+    "marque": "Audi",
+    "modele": "A4",
+    "motorisation": "Essence",
+    "annee": 2021,
+    "co2": 138,
+    "poids": 1485
+  },
+  {
+    "marque": "Volkswagen",
+    "modele": "Tiguan",
+    "motorisation": "Hybride",
+    "annee": 2010,
+    "co2": 109,
+    "poids": 1661
+  },
+  {
+    "marque": "Volkswagen",
+    "modele": "Scirocco",
+    "motorisation": "Hybride",
+    "annee": 1998,
+    "co2": 98,
+    "poids": 1659
+  },
+  {
+    "marque": "Skoda",
+    "modele": "Kamiq",
+    "motorisation": "Électrique",
+    "annee": 1993,
+    "co2": 0,
+    "poids": 2277
+  },
+  {
+    "marque": "Citroën",
+    "modele": "C3",
+    "motorisation": "Électrique",
+    "annee": 2022,
+    "co2": 0,
+    "poids": 2221
+  },
+  {
+    "marque": "Mercedes",
+    "modele": "GLE",
+    "motorisation": "Diesel",
+    "annee": 2016,
+    "co2": 152,
+    "poids": 1216
+  },
+  {
+    "marque": "Volvo",
+    "modele": "V40",
+    "motorisation": "Hybride",
+    "annee": 2004,
+    "co2": 89,
+    "poids": 1437
+  },
+  {
+    "marque": "Seat",
+    "modele": "Ateca",
+    "motorisation": "Hybride",
+    "annee": 2010,
+    "co2": 93,
+    "poids": 1624
+  },
+  {
+    "marque": "Volvo",
+    "modele": "V60",
+    "motorisation": "Hybride",
+    "annee": 1993,
+    "co2": 100,
+    "poids": 1772
+  },
+  {
+    "marque": "Seat",
+    "modele": "Ateca",
+    "motorisation": "Hybride Rechargeable",
+    "annee": 2016,
+    "co2": 38,
+    "poids": 1820
+  },
+  {
+    "marque": "Skoda",
+    "modele": "Kamiq",
+    "motorisation": "Électrique",
+    "annee": 2022,
+    "co2": 0,
+    "poids": 1993
+  },
+  {
+    "marque": "Skoda",
+    "modele": "Fabia",
+    "motorisation": "Diesel",
+    "annee": 2005,
+    "co2": 168,
+    "poids": 1209
+  },
+  {
+    "marque": "Renault",
+    "modele": "Scénic",
+    "motorisation": "Hybride Rechargeable",
+    "annee": 2021,
+    "co2": 54,
+    "poids": 1771
+  },
+  {
+    "marque": "Skoda",
+    "modele": "Kodiaq",
+    "motorisation": "Hybride",
+    "annee": 1996,
+    "co2": 86,
+    "poids": 1544
+  },
+  {
+    "marque": "Fiat",
+    "modele": "Punto",
+    "motorisation": "Diesel",
+    "annee": 2006,
+    "co2": 153,
+    "poids": 1098
+  },
+  {
+    "marque": "Fiat",
+    "modele": "Punto",
+    "motorisation": "Diesel",
+    "annee": 2004,
+    "co2": 98,
+    "poids": 1881
+  },
+  {
+    "marque": "BMW",
+    "modele": "Série 1",
+    "motorisation": "Électrique",
+    "annee": 2001,
+    "co2": 0,
+    "poids": 2200
+  },
+  {
+    "marque": "Fiat",
+    "modele": "Tipo",
+    "motorisation": "Hybride Rechargeable",
+    "annee": 1998,
+    "co2": 44,
+    "poids": 1320
+  },
+  {
+    "marque": "Renault",
+    "modele": "Twingo",
+    "motorisation": "Essence",
+    "annee": 1993,
+    "co2": 136,
+    "poids": 1047
+  },
+  {
+    "marque": "Skoda",
+    "modele": "Fabia",
+    "motorisation": "Électrique",
+    "annee": 1996,
+    "co2": 0,
+    "poids": 2109
+  },
+  {
+    "marque": "Skoda",
+    "modele": "Kamiq",
+    "motorisation": "Hybride",
+    "annee": 1998,
+    "co2": 91,
+    "poids": 1398
+  },
+  {
+    "marque": "Volvo",
+    "modele": "V60",
+    "motorisation": "Hybride Rechargeable",
+    "annee": 1999,
+    "co2": 59,
+    "poids": 1718
+  },
+  {
+    "marque": "Audi",
+    "modele": "e-tron",
+    "motorisation": "Diesel",
+    "annee": 1993,
+    "co2": 113,
+    "poids": 1820
+  },
+  {
+    "marque": "Opel",
+    "modele": "Crossland",
+    "motorisation": "Hybride",
+    "annee": 2006,
+    "co2": 118,
+    "poids": 1583
+  },
+  {
+    "marque": "Renault",
+    "modele": "Twingo",
+    "motorisation": "Électrique",
+    "annee": 2018,
+    "co2": 0,
+    "poids": 2050
+  },
+  {
+    "marque": "Peugeot",
+    "modele": "208",
+    "motorisation": "Hybride Rechargeable",
+    "annee": 2006,
+    "co2": 51,
+    "poids": 1561
+  },
+  {
+    "marque": "BMW",
+    "modele": "i3",
+    "motorisation": "Hybride Rechargeable",
+    "annee": 2009,
+    "co2": 60,
+    "poids": 1724
+  },
+  {
+    "marque": "Skoda",
+    "modele": "Octavia",
+    "motorisation": "Hybride Rechargeable",
+    "annee": 2022,
+    "co2": 25,
+    "poids": 1434
+  },
+  {
+    "marque": "BMW",
+    "modele": "X5",
+    "motorisation": "Diesel",
+    "annee": 2005,
+    "co2": 102,
+    "poids": 1338
+  },
+  {
+    "marque": "Fiat",
+    "modele": "Bravo",
+    "motorisation": "Électrique",
+    "annee": 2008,
+    "co2": 0,
+    "poids": 1816
+  },
+  {
+    "marque": "Seat",
+    "modele": "Arona",
+    "motorisation": "Diesel",
+    "annee": 1998,
+    "co2": 173,
+    "poids": 1455
+  },
+  {
+    "marque": "Seat",
+    "modele": "Arona",
+    "motorisation": "Hybride",
+    "annee": 2024,
+    "co2": 106,
+    "poids": 1670
+  },
+  {
+    "marque": "Mercedes",
+    "modele": "GLE",
+    "motorisation": "Hybride Rechargeable",
+    "annee": 2021,
+    "co2": 65,
+    "poids": 1457
+  },
+  {
+    "marque": "Renault",
+    "modele": "Mégane",
+    "motorisation": "Hybride",
+    "annee": 1996,
+    "co2": 89,
+    "poids": 1611
+  },
+  {
+    "marque": "Citroën",
+    "modele": "C3",
+    "motorisation": "Hybride",
+    "annee": 1996,
+    "co2": 112,
+    "poids": 1356
+  },
+  {
+    "marque": "Audi",
+    "modele": "Q7",
+    "motorisation": "Diesel",
+    "annee": 1997,
+    "co2": 170,
+    "poids": 1102
+  },
+  {
+    "marque": "Citroën",
+    "modele": "C2",
+    "motorisation": "Hybride",
+    "annee": 2012,
+    "co2": 101,
+    "poids": 1600
+  },
+  {
+    "marque": "Audi",
+    "modele": "A5",
+    "motorisation": "Essence",
+    "annee": 2009,
+    "co2": 141,
+    "poids": 1340
+  },
+  {
+    "marque": "Fiat",
+    "modele": "Bravo",
+    "motorisation": "Essence",
+    "annee": 2010,
+    "co2": 120,
+    "poids": 1267
+  },
+  {
+    "marque": "Opel",
+    "modele": "Insignia",
+    "motorisation": "Diesel",
+    "annee": 2003,
+    "co2": 191,
+    "poids": 1455
+  },
+  {
+    "marque": "Volkswagen",
+    "modele": "ID.4",
+    "motorisation": "Hybride",
+    "annee": 1998,
+    "co2": 86,
+    "poids": 1271
+  },
+  {
+    "marque": "Fiat",
+    "modele": "Punto",
+    "motorisation": "Électrique",
+    "annee": 2005,
+    "co2": 0,
+    "poids": 1787
+  },
+  {
+    "marque": "Skoda",
+    "modele": "Kodiaq",
+    "motorisation": "Hybride Rechargeable",
+    "annee": 2022,
+    "co2": 62,
+    "poids": 1335
+  },
+  {
+    "marque": "Volvo",
+    "modele": "XC40",
+    "motorisation": "Diesel",
+    "annee": 1993,
+    "co2": 155,
+    "poids": 1822
+  },
+  {
+    "marque": "Seat",
+    "modele": "Ibiza",
+    "motorisation": "Électrique",
+    "annee": 2012,
+    "co2": 0,
+    "poids": 1794
+  },
+  {
+    "marque": "Volvo",
+    "modele": "V40",
+    "motorisation": "Électrique",
+    "annee": 2020,
+    "co2": 0,
+    "poids": 2235
+  },
+  {
+    "marque": "BMW",
+    "modele": "i3",
+    "motorisation": "Électrique",
+    "annee": 2020,
+    "co2": 0,
+    "poids": 1980
+  },
+  {
+    "marque": "Volkswagen",
+    "modele": "Golf",
+    "motorisation": "Hybride",
+    "annee": 1990,
+    "co2": 119,
+    "poids": 1326
+  },
+  {
+    "marque": "Volkswagen",
+    "modele": "Passat",
+    "motorisation": "Hybride Rechargeable",
+    "annee": 2011,
+    "co2": 67,
+    "poids": 1858
+  },
+  {
+    "marque": "BMW",
+    "modele": "X5",
+    "motorisation": "Hybride Rechargeable",
+    "annee": 2010,
+    "co2": 33,
+    "poids": 1869
+  },
+  {
+    "marque": "Peugeot",
+    "modele": "308",
+    "motorisation": "Électrique",
+    "annee": 1992,
+    "co2": 0,
+    "poids": 1697
+  },
+  {
+    "marque": "Volkswagen",
+    "modele": "Passat",
+    "motorisation": "Hybride",
+    "annee": 2000,
+    "co2": 104,
+    "poids": 1682
+  },
+  {
+    "marque": "Volvo",
+    "modele": "V40",
+    "motorisation": "Essence",
+    "annee": 2024,
+    "co2": 206,
+    "poids": 1068
+  },
+  {
+    "marque": "Seat",
+    "modele": "Ibiza",
+    "motorisation": "Diesel",
+    "annee": 2005,
+    "co2": 126,
+    "poids": 1058
+  },
+  {
+    "marque": "Citroën",
+    "modele": "DS4",
+    "motorisation": "Hybride Rechargeable",
+    "annee": 2003,
+    "co2": 44,
+    "poids": 1986
+  },
+  {
+    "marque": "BMW",
+    "modele": "X1",
+    "motorisation": "Hybride",
+    "annee": 2021,
+    "co2": 85,
+    "poids": 1630
+  },
+  {
+    "marque": "Peugeot",
+    "modele": "508",
+    "motorisation": "Électrique",
+    "annee": 2014,
+    "co2": 0,
+    "poids": 2253
+  },
+  {
+    "marque": "Volkswagen",
+    "modele": "Tiguan",
+    "motorisation": "Diesel",
+    "annee": 2003,
+    "co2": 131,
+    "poids": 1739
+  },
+  {
+    "marque": "Peugeot",
+    "modele": "308",
+    "motorisation": "Essence",
+    "annee": 2002,
+    "co2": 191,
+    "poids": 1792
+  },
+  {
+    "marque": "Audi",
+    "modele": "Q2",
+    "motorisation": "Diesel",
+    "annee": 2022,
+    "co2": 156,
+    "poids": 1305
+  },
+  {
+    "marque": "Volkswagen",
+    "modele": "Polo",
+    "motorisation": "Hybride",
+    "annee": 2020,
+    "co2": 109,
+    "poids": 1616
+  },
+  {
+    "marque": "Audi",
+    "modele": "Q5",
+    "motorisation": "Hybride Rechargeable",
+    "annee": 2013,
+    "co2": 49,
+    "poids": 1711
+  },
+  {
+    "marque": "Peugeot",
+    "modele": "207",
+    "motorisation": "Diesel",
+    "annee": 1996,
+    "co2": 126,
+    "poids": 1175
+  },
+  {
+    "marque": "Peugeot",
+    "modele": "205",
+    "motorisation": "Hybride",
+    "annee": 2023,
+    "co2": 86,
+    "poids": 1473
+  },
+  {
+    "marque": "Volvo",
+    "modele": "XC90",
+    "motorisation": "Hybride Rechargeable",
+    "annee": 2021,
+    "co2": 44,
+    "poids": 1428
+  },
+  {
+    "marque": "Peugeot",
+    "modele": "3008",
+    "motorisation": "Essence",
+    "annee": 2013,
+    "co2": 154,
+    "poids": 1086
+  },
+  {
+    "marque": "Citroën",
+    "modele": "C2",
+    "motorisation": "Hybride",
+    "annee": 2005,
+    "co2": 95,
+    "poids": 1762
+  },
+  {
+    "marque": "Mercedes",
+    "modele": "Classe A",
+    "motorisation": "Essence",
+    "annee": 2007,
+    "co2": 183,
+    "poids": 1716
+  },
+  {
+    "marque": "Seat",
+    "modele": "Ibiza",
+    "motorisation": "Diesel",
+    "annee": 1997,
+    "co2": 175,
+    "poids": 1006
+  },
+  {
+    "marque": "Skoda",
+    "modele": "Fabia",
+    "motorisation": "Essence",
+    "annee": 2009,
+    "co2": 249,
+    "poids": 1578
+  },
+  {
+    "marque": "Skoda",
+    "modele": "Superb",
+    "motorisation": "Essence",
+    "annee": 1993,
+    "co2": 105,
+    "poids": 1582
+  },
+  {
+    "marque": "Renault",
+    "modele": "Espace",
+    "motorisation": "Diesel",
+    "annee": 2020,
+    "co2": 140,
+    "poids": 1267
+  },
+  {
+    "marque": "Renault",
+    "modele": "Mégane",
+    "motorisation": "Essence",
+    "annee": 2023,
+    "co2": 229,
+    "poids": 1261
+  }
+]
