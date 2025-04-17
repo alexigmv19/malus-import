@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Simulateur Malus (Base 200 véhicules)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: Arial, sans-serif; background: #f5f5f5; padding: 20px; }
+    h1 { text-align: center; }
+    label, select, input, button { width: 90%; margin: 10px auto; display: block; padding: 10px; font-size: 16px; }
+    #resultat { margin-top: 20px; text-align: center; font-size: 18px; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <h1>Simulateur Malus Import FR</h1>
+  <label>Marque :</label>
+  <select id="marque"></select>
+  <label>Modèle :</label>
+  <select id="modele"></select>
+  <label>Motorisation :</label>
+  <select id="motorisation"></select>
+  <label>Année de 1re immatriculation :</label>
+  <input type="number" id="annee" min="1990" max="2024" placeholder="Ex: 2020">
+  <button onclick="calculer()">Calculer le Malus</button>
+  <div id="resultat">Remplissez les champs ci-dessus</div>
+
+  <script>
+    let base = [];
+
+    async function chargerBase() {
+      const response = await fetch("vehicules_europe_200.json");
+      base = await response.json();
+
+      const marques = [...new Set(base.map(v => v.marque))];
+      const marqueSel = document.getElementById("marque");
+      marques.sort().forEach(m => marqueSel.innerHTML += `<option value="${m}">${m}</option>`);
+      marqueSel.addEventListener("change", updateModeles);
+      document.getElementById("modele").addEventListener("change", updateMotorisations);
+      updateModeles();
+    }
+
+    function updateModeles() {
+      const marque = document.getElementById("marque").value;
+      const modeles = [...new Set(base.filter(v => v.marque === marque).map(v => v.modele))];
+      const modeleSel = document.getElementById("modele");
+      modeleSel.innerHTML = "";
+      modeles.sort().forEach(m => modeleSel.innerHTML += `<option value="${m}">${m}</option>`);
+      updateMotorisations();
+    }
+
+    function updateMotorisations() {
+      const marque = document.getElementById("marque").value;
+      const modele = document.getElementById("modele").value;
+      const motors = [...new Set(base.filter(v => v.marque === marque && v.modele === modele).map(v => v.motorisation))];
+      const motorSel = document.getElementById("motorisation");
+      motorSel.innerHTML = "";
+      motors.forEach(m => motorSel.innerHTML += `<option value="${m}">${m}</option>`);
+    }
+
+    function getDecote(mois) {
+      if (mois >= 181) return 1;
+      return Math.min((Math.floor((mois - 1) / 3) + 1) * 0.03, 0.94);
+    }
+
+    function calculMalusCO2(co2) {
+      if (co2 <= 113) return 0;
+      if (co2 >= 192) return 70000;
+      return 50 + (co2 - 113) * 30;
+    }
+
+    function calculMalusPoids(poids) {
+      if (poids <= 1599) return 0;
+      let malus = 0, exc = poids - 1599;
+      const tranches = [
+        { max: 200, val: 10 },
+        { max: 100, val: 15 },
+        { max: 100, val: 20 },
+        { max: 100, val: 25 },
+        { max: Infinity, val: 30 }
+      ];
+      for (let t of tranches) {
+        let used = Math.min(exc, t.max);
+        malus += used * t.val;
+        exc -= used;
+        if (exc <= 0) break;
+      }
+      return malus;
+    }
+
+    function calculer() {
+      const marque = document.getElementById("marque").value;
+      const modele = document.getElementById("modele").value;
+      const motorisation = document.getElementById("motorisation").value;
+      const annee = parseInt(document.getElementById("annee").value);
+      const vehicule = base.find(v => v.marque === marque && v.modele === modele && v.motorisation === motorisation && v.annee === annee);
+
+      if (!vehicule) {
+        document.getElementById("resultat").innerText = "Véhicule non trouvé dans la base.";
+        return;
+      }
+
+      const co2 = vehicule.co2;
+      const poids = vehicule.poids;
+      const date = new Date(annee, 0, 1);
+      const now = new Date();
+      const mois = (now.getFullYear() - date.getFullYear()) * 12 + now.getMonth() - date.getMonth();
+      const decote = getDecote(mois);
+      const malusCO2 = calculMalusCO2(co2);
+      const malusPoids = calculMalusPoids(poids);
+      const total = Math.min(malusCO2 + malusPoids, 70000);
+      const totalDecote = Math.round(total * (1 - decote));
+
+      document.getElementById("resultat").innerText =
+        `CO₂ : ${co2} g/km\nPoids : ${poids} kg\nMalus CO₂ : ${malusCO2} €\nMalus Poids : ${malusPoids} €\nDécote : ${Math.round(decote * 100)}%\n\nTotal à payer : ${totalDecote} €`;
+    }
+
+    window.onload = chargerBase;
+  </script>
+</body>
+</html>
