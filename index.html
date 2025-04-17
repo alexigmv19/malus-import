@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Simulateur Malus Import FR</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { font-family: Arial, sans-serif; background: #f5f5f5; padding: 20px; }
+        .container { max-width: 400px; margin: auto; background: white; padding: 20px; border-radius: 10px; }
+        h1 { text-align: center; }
+        label, select, input, button { display: block; width: 100%; margin-bottom: 15px; font-size: 16px; }
+        button { background-color: #007bff; color: white; border: none; padding: 10px; border-radius: 5px; cursor: pointer; }
+        button:hover { background-color: #0056b3; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Simulateur Malus Import FR</h1>
+        <label for="marque">Marque :</label>
+        <select id="marque"><option>Sélectionnez une marque</option></select>
+
+        <label for="modele">Modèle :</label>
+        <select id="modele"><option>Sélectionnez un modèle</option></select>
+
+        <label for="version">Version :</label>
+        <select id="version"><option>Sélectionnez une version</option></select>
+
+        <label for="annee">Année de mise en circulation :</label>
+        <input type="number" id="annee" placeholder="ex: 2020">
+
+        <button onclick="calculerMalus()">Calculer le Malus</button>
+
+        <p id="resultat"></p>
+    </div>
+
+    <script>
+        const marqueSelect = document.getElementById("marque");
+        const modeleSelect = document.getElementById("modele");
+        const versionSelect = document.getElementById("version");
+        const resultat = document.getElementById("resultat");
+
+        const BASE_URL = "https://api.planete-moteurs.fr";
+
+        // Marques
+        fetch(`${BASE_URL}/api/marques`)
+            .then(res => res.json())
+            .then(data => {
+                data.forEach(marque => {
+                    const opt = document.createElement("option");
+                    opt.value = marque.id;
+                    opt.textContent = marque.nom;
+                    marqueSelect.appendChild(opt);
+                });
+            });
+
+        // Modèles
+        marqueSelect.addEventListener("change", () => {
+            const marqueId = marqueSelect.value;
+            modeleSelect.innerHTML = '<option>Sélectionnez un modèle</option>';
+            versionSelect.innerHTML = '<option>Sélectionnez une version</option>';
+            fetch(`${BASE_URL}/api/modeles?marque=${marqueId}`)
+                .then(res => res.json())
+                .then(data => {
+                    data.forEach(modele => {
+                        const opt = document.createElement("option");
+                        opt.value = modele.id;
+                        opt.textContent = modele.nom;
+                        modeleSelect.appendChild(opt);
+                    });
+                });
+        });
+
+        // Versions
+        modeleSelect.addEventListener("change", () => {
+            const modeleId = modeleSelect.value;
+            versionSelect.innerHTML = '<option>Sélectionnez une version</option>';
+            fetch(`${BASE_URL}/api/versions?modele=${modeleId}`)
+                .then(res => res.json())
+                .then(data => {
+                    data.forEach(version => {
+                        const opt = document.createElement("option");
+                        opt.value = version.id;
+                        opt.textContent = version.nom;
+                        versionSelect.appendChild(opt);
+                    });
+                });
+        });
+
+        function calculerMalus() {
+            const versionId = versionSelect.value;
+            const annee = document.getElementById("annee").value;
+            if (!versionId || !annee) {
+                resultat.textContent = "Veuillez remplir tous les champs.";
+                return;
+            }
+            resultat.textContent = "Calcul en cours...";
+            fetch(`${BASE_URL}/api/malus?version=${versionId}&annee=${annee}`)
+                .then(res => res.json())
+                .then(data => {
+                    resultat.textContent = `Malus estimé : ${data.malus} €`;
+                })
+                .catch(() => {
+                    resultat.textContent = "Erreur lors du calcul du malus.";
+                });
+        }
+    </script>
+</body>
+</html>
